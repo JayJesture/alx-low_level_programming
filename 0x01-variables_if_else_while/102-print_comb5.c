@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 #include <stdio.h>
 #include <stdlib.h>
 /**
@@ -11,7 +13,8 @@ int num1, num2;
 
 for (num1 = 0; num1 <= 99; num1++)
 {
-for (num2 = 0; num2 <= 99; num2++)
+num2 = num1 + 1;
+for (; num2 <= 99; num2++)
 {
 if (num1 <= num2)
 {
@@ -28,5 +31,5 @@ putchar(' ');
 }
 }
 }
-return 0;
+return (0);
 }
