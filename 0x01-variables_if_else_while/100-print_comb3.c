@@ -17,8 +17,11 @@ for (i = '0'; i <= '9'; i++)
 	    continue;
 	    putchar(i);
 	    putchar(m);
+	    if (!(i=='8' && m=='9'))
+	    {
 	    putchar(',');
 	    putchar(' ');
+	    }
 	}
 }
 return (0);
