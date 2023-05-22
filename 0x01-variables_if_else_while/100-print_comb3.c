@@ -7,7 +7,8 @@
  */
 int main(void)
 {
-for (int i = '0'; i <= '9'; i++)
+int i;
+for (i = '0'; i <= '9'; i++)
 {	
 	int m = i + 1;
 	for (; m <= '9'; m++)
@@ -19,4 +20,5 @@ for (int i = '0'; i <= '9'; i++)
 	    putchar(',');
 	}
 }
+return (0);
 }
