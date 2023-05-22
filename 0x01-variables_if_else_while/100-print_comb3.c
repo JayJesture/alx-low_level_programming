@@ -14,10 +14,11 @@ for (i = '0'; i <= '9'; i++)
 	for (; m <= '9'; m++)
 	{
 	    if (i == m)
-	        continue;
+	    continue;
 	    putchar(i);
 	    putchar(m);
 	    putchar(',');
+	    putchar(' ');
 	}
 }
 return (0);
