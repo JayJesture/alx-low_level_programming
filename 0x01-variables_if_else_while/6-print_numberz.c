@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 /**
  * main -Entry point
@@ -7,12 +6,12 @@
  */
 int main(void)
 {
-	int n = 0;
+        int n = 0;
 
-	do {
-		putchar('n');
-		n++;
-	} while (n <= 10);
-	putchar('\n');
-	return (0);
+        do {
+                putchar(n);
+                n++;
+        } while (n <= '9');
+        putchar('\n');
+        return (0);
 }
