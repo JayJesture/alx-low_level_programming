@@ -1,21 +1,22 @@
 #include <stdio.h>
 /**
- * main - print alpha
- * Return: 0 if successful
+ * print_sign - print sign
+ * @n: var carries value to be checked
+ * Return: 1 if +
  */
-int main(void)
+int print_sign(int n);
 {
-
-  int i = 0;
-  for (; i < 10; i++)
-  {
-    char ch = 'a';
-    for (; ch <= 'z'; ch++)
-    {
-        putchar(ch);
-    }
-    putchar('\n');
-    }
-  
-  return (0);
+if (n < 0)
+{
+putchar(45);
+return (0);
 }
+else if (n = 0)
+{
+putchar(48);
+return (0);
+}
+putchar(43);
+return (1);
+}
+
