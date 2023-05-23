@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_sign - print sign
  * @n: var carries value to be checked
