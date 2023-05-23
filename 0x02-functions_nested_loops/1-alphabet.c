@@ -3,7 +3,7 @@
  * main - print alpha
  * Return: 0 if successful
  */
-void main(void)
+int main(void)
 {
 for (char ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
