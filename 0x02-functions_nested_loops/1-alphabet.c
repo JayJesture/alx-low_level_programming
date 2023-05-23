@@ -9,5 +9,5 @@ char ch = 'a';
 for (; ch <= 'z'; ch++)
 putchar(ch);
 putchar('\n');
-return (0);
+return;
 }
