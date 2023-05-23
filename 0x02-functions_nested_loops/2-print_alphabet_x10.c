@@ -14,6 +14,6 @@ for (; ch <= 'z'; ch++)
 putchar(ch);
 }
 putchar('\n');
-}  
+}
 return;
 }
