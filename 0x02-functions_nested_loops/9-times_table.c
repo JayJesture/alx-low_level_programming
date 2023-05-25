@@ -2,7 +2,7 @@
 /**
  * times_table - run time-table of 9
  */
-void times_table(void);
+void times_table(void)
 {
 for (column = 0; column <= 8; column++)
 {
@@ -21,8 +21,8 @@ _putchar(times - '0');
 _putchar(',');
 _putchar(' ');
 }
-}
 _putchar((9 * row) - '0');
 _putchar('\n');
 }
+return
 }
