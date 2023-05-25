@@ -9,7 +9,7 @@ for (row = 0; row <= 9; row++)
 {
 for (column = 0; column <= 8; column++)
 {
-int times1 = ((row * column));
+int times1 = (row * column);
 int times2 = ((row * column)%10);
 if (((row)*(column+1)) < 10)
 {
@@ -27,7 +27,8 @@ _putchar(',');
 _putchar(' ');
 }
 }
-_putchar((9 * row) + '0');
+int lst = 9 * row;
+_putchar(lst + '0');
 _putchar('\n');
 }
 return;
