@@ -9,12 +9,12 @@ for (row = 0; row <= 9; row++)
 {
 for (column = 0; column <= 8; column++)
 {
-char times1 = (char)((row * column)/10);
-char times2 = (char)((row * column)%10);
+int times1 = ((row * column)/10);
+int times2 = ((row * column)%10);
 if (((row)*(column+1)) < 10)
 {
-_putchar(times1);
-_putchar(times2);
+_putchar(times1 - '0');
+_putchar(times2 - '0');
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
