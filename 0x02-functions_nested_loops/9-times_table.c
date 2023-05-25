@@ -13,7 +13,6 @@ char times1 = (char)((row * column)/10);
 char times2 = (char)((row * column)%10);
 if (((row)*(column+1)) < 10)
 {
-printf("%i,  ", times);
 _putchar(times1);
 _putchar(times2);
 _putchar(',');
