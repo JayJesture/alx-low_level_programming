@@ -16,7 +16,7 @@ for (min1 = '0'; min1 <= '5'; min1++)
 {
 for (min2 = '0'; min2 <= '9'; min2++)
 {
-if (hour1 >= 2 && hour2 >= 3 && min1 >= 5 && min2 >= 9)
+if (hour1 >= '2' && hour2 >= '3' && min1 >= '5' && min2 >= '9')
 continue;
 _putchar(hour1);
 _putchar(hour2);
