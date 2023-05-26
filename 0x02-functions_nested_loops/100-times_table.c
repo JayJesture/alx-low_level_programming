@@ -12,7 +12,7 @@ for (row = 0; row <= 9; row++)
 for (column = 0; column <= (n - 1); column++)
 {
 times1 = ((row * column) / 100);
-times2 = ((row * column) / 10) % 10);
+times2 = (((row * column) / 10) % 10);
 times3 = ((row * column) % 10);
 if (((row) * (column + 1)) < 10)
 {
@@ -25,7 +25,7 @@ _putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }
-else if (((row) * (column + 1)) > 9) && ((row) * (column + 1)) < 100))
+else if ((((row) * (column + 1)) > 9) && (((row) * (column + 1)) < 100))
 {
 /*if (times1 > 0)*/
 _putchar(times2 + '0');
