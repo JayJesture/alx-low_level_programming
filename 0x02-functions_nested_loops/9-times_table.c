@@ -5,13 +5,13 @@
 void times_table(void)
 {
 int row, column, lst;
+int times1 = (row * column)/10;
+int times2 = ((row * column)%10);
 
 for (row = 0; row <= 9; row++)
 {
 for (column = 0; column <= 8; column++)
 {
-int times1 = (row * column)/10;
-int times2 = ((row * column)%10);
 if (((row)*(column+1)) < 10)
 {
 if (times1 > 0)
