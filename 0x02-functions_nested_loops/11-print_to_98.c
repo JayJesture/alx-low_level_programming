@@ -24,6 +24,7 @@ _putchar(',');
 _putchar(' ');
 }
 }
-_putchar('98');
-_putchar(\n);
+_putchar('9');
+_putchar('8');
+_putchar('\n');
 }
