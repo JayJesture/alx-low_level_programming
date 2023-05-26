@@ -10,11 +10,12 @@ for (row = 0; row <= 9; row++)
 {
 for (column = 0; column <= 8; column++)
 {
-/*int times1 = (row * column);*/
+int times1 = (row * column);
 int times2 = ((row * column));
 if (((row)*(column+1)) < 10)
 {
-/*_putchar(times1 + '0');*/
+if (times1 > 0)
+_putchar(times1 + '0');
 _putchar(times2 + '0');
 _putchar(',');
 _putchar(' ');
@@ -22,7 +23,8 @@ _putchar(' ');
 }
 else
 {
-/*_putchar(times1 + '0');*/
+if (times1 > 0)
+_putchar(times1 + '0');
 _putchar(times2 + '0');
 _putchar(',');
 _putchar(' ');
