@@ -28,7 +28,9 @@ _putchar(' ');
 else if ((((row) * (column + 1)) > 9) && (((row) * (column + 1)) < 100))
 {
 if (times1 > 0)
+{
 _putchar(times2 + '0');
+}
 _putchar(times3 + '0');
 _putchar(',');
 _putchar(' ');
@@ -37,9 +39,13 @@ _putchar(' ');
 else
 {
 if (times1 > 0)
+{
 _putchar(times1 + '0');
+}
 if (times2 > 0)
+{
 _putchar(times2 + '0');
+}
 _putchar(times3 + '0');
 _putchar(',');
 _putchar(' ');
@@ -47,7 +53,9 @@ _putchar(' ');
 }
 lst = n * row;
 if ((lst / 100) != 0)
+{
 _putchar(lst / 100 + '0');
+}
 if (((lst / 10) % 10) != 0)
 _putchar(((lst / 10) % 10) + '0');
 _putchar(lst % 10 + '0');
