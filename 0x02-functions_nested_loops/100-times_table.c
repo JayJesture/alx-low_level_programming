@@ -48,7 +48,7 @@ _putchar(' ');
 lst = n * row;
 if ((lst / 100) != 0)
 _putchar(lst / 100 + '0');
-if (!((((lst / 10) % 10) = 0) && ((lst / 100) = 0))))
+if (!((((lst / 10) % 10) = 0) && ((lst / 100) = 0)))
 _putchar(((lst / 10) % 10) + '0');
 _putchar(lst % 10 + '0');
 _putchar('\n');
