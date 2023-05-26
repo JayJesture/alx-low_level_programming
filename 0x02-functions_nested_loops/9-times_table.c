@@ -4,8 +4,7 @@
  */
 void times_table(void)
 {
-int row, column;
-int lst = 9 * row;
+int row, column, lst;
 
 for (row = 0; row <= 9; row++)
 {
@@ -29,6 +28,7 @@ _putchar(',');
 _putchar(' ');
 }
 }
+lst = 9 * row;
 _putchar(lst + '0');
 _putchar('\n');
 }
