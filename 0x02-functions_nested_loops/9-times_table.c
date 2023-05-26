@@ -4,7 +4,7 @@
  */
 void times_table(void)
 {
-int row, column, lst, times2;
+int row, column, lst, times1, times2;
 
 for (row = 0; row <= 9; row++)
 {
@@ -34,5 +34,6 @@ lst = 9 * row;
 _putchar(lst + '0');
 _putchar('\n');
 }
+_putchar(times1);
 return;
 }
