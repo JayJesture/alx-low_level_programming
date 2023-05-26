@@ -7,7 +7,7 @@ void print_times_table(int n)
 {
 int row, column, lst, times1, times2, times3;
 
-for (row = 0; row <= 9; row++)
+for (row = 0; row <= n; row++)
 {
 for (column = 0; column <= (n - 1); column++)
 {
@@ -27,7 +27,7 @@ _putchar(' ');
 }
 else if ((((row) * (column + 1)) > 9) && (((row) * (column + 1)) < 100))
 {
-/*if (times1 > 0)*/
+if (times1 > 0)
 _putchar(times2 + '0');
 _putchar(times3 + '0');
 _putchar(',');
@@ -36,7 +36,9 @@ _putchar(' ');
 }
 else
 {
+if (times1 > 0)
 _putchar(times1 + '0');
+if (times2 > 0)
 _putchar(times2 + '0');
 _putchar(times3 + '0');
 _putchar(',');
