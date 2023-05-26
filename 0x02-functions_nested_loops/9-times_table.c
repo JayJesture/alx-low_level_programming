@@ -12,8 +12,8 @@ for (column = 0; column <= 8; column++)
 {
 if (((row)*(column+1)) < 10)
 {
-int times1 = ((row * column)/10);
-int times2 = ((row * column)%10);
+times1 = ((row * column)/10);
+times2 = ((row * column)%10);
 if (times1 > 0)
 _putchar(times1 + '0');
 _putchar(times2 + '0');
