@@ -32,6 +32,7 @@ _putchar(' ');
 }
 lst = 9 * row;
 _putchar(' ');
+if (lst/10 > 0)
 _putchar(lst/10 + '0');
 _putchar(lst%10 + '0');
 _putchar('\n');
