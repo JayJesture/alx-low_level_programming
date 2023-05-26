@@ -5,6 +5,8 @@
 void times_table(void)
 {
 int row, column;
+int lst = 9 * row;
+
 for (row = 0; row <= 9; row++)
 {
 for (column = 0; column <= 8; column++)
@@ -27,7 +29,6 @@ _putchar(',');
 _putchar(' ');
 }
 }
-int lst = 9 * row;
 _putchar(lst + '0');
 _putchar('\n');
 }
