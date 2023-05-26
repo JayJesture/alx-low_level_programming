@@ -31,8 +31,8 @@ _putchar(' ');
 }
 }
 lst = 9 * row;
-_putchar(times1 + '0');
-_putchar(times2 + '0');
+_putchar(lst/10 + '0');
+_putchar(lst%10 + '0');
 _putchar('\n');
 }
 _putchar(lst);
