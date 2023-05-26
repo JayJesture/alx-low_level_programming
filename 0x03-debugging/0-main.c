@@ -9,8 +9,8 @@ int main(void)
 {
         int i;
 
-        i = 98;
-        printf("%i is zero\n", i);
+        i = 0;
+        positive_or_negative(i);
 
         return (0);
 }
