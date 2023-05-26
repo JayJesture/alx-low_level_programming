@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * print_times_table - run time-table of int
- * putchrr - put , then ' ' n times 
+ * print_times_table - run time-table of int  
  * @n: value brought
  */
 void putchrr(int n);
@@ -54,12 +53,16 @@ _putchar('\n');
 return;
 }
 
-void putchrr(int n)
+/**
+ * putchrr - put , then ' ' y times
+ * @y: value passed
+ */
+void putchrr(int y)
 {
 int i;
   
 _putchar(',');
-for (i = 0; i < n; i++)
+for (i = 0; i < y; i++)
 {
   _putchar(' ');
 }
