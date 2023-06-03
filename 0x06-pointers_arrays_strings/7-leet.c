@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "mian.h"
 
 /**
- * leet - take strings and capitalize words
+ * leet - capitalize words
  * @a: string to capitalize
  * Return: capitalized words
  */
